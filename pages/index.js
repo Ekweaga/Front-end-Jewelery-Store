@@ -11,8 +11,161 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header>
+        <div className='firstHeader flex items-center'>
+          <div>
+            <img src="/stone.png"/>
+          </div>
+          <div className='-mt-[70px]'>
+            <h2 className='font-bold  justify-center text-3xl mb-[20px]'>Our Story</h2>
+            <p className="w-[400px] text-sm">modern jewelery is made of gold,sliver or platinum often with precious or semiprecious stones,it evolves
+              from shell,animal teeth and other items used as body decoration in prehistoric times
+            </p>
+          </div>
+        </div>
+
+
+        <div className='secondHeader flex items-center w-[95%] mx-auto md:-mt-[120px] relative flex-col md:flex-row'>
+          <div className='flex flex-col justify-center'>
+            <h2 className=' text-7xl ml-[50px] leading-[80px]'>Jewelery tells <br/>a great story</h2>
+            <div className='flex text-sm mt-[80px] ml-[60px]'>
+              <div>
+                <h3 className='text-2xl'>Gold</h3>
+                <p>Her provision acuteness had two way intention</p>
+              </div>
+              <div>
+              <h3 className='text-2xl'>SILVER</h3>
+                <p>Her provision acuteness had two way intention</p>
+              </div>
+            </div>
+          </div>
+
+          <div className='relative'>
+          <img src="/Rectangle 4.png"/>
+          <img src="/play.png" className='absolute right-[30px] top-[400px]'/>
+          </div>
+          <div className='absolute right-0 top-[30px]'><img src="/Social Icons.png"/></div>
+        </div>
+      </header>
+
+
+      <div className='band flex gap-[40px] justify-around mt-[40px]'>
+        <div>
+          <img src="/image 24.png"/>
+        </div>
+        <div>
+          <h2 className='text-4xl mb-[20px]'>Gold Woven Chain <br/>Bracelet in Black</h2>
+          <p className='w-[400px] text-sm'>This bracelet features a 5MM Stainless Steel chain with Nylon cord braiding. Each bracelet includes a polishing pad and absolute
+            and a cotton jewelery pouch. Produly made by hand in Atlanta
+          </p>
+          <div className='mt-[40px]'>
+            <h2 className='font-bold text-2xl mb-[15px]'>Size</h2>
+            <p>S &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; M &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;L</p>
+          </div>
+          <div className='mt-[40px]  flex items-center gap-[30px]'>
+            <button className='bg-[#3D3D3F] p-2 w-[200px] text-white'>ADD TO CART</button>
+            <b className='text-2xl'>549.29</b>
+          </div>
+        </div>
+      </div>
+
      
            
+      <div className='band flex gap-[40px] justify-around mt-[100px]'>
+       
+        <div className='mt-[60px]'>
+          <h2 className='text-4xl mb-[20px]'>Gold Black Coral <br/>Ring</h2>
+          <p className='w-[400px] text-sm'>This bracelet features a 5MM Stainless Steel chain with Nylon cord braiding. Each bracelet includes a polishing pad and absolute
+            and a cotton jewelery pouch. Produly made by hand in Atlanta
+          </p>
+          <div className='mt-[40px]'>
+            <h2 className='font-bold text-2xl mb-[15px]'>Size</h2>
+            <p>S &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; M &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;L</p>
+          </div>
+          <div className='mt-[40px]  flex items-center gap-[30px]'>
+            <button className='bg-[#3D3D3F] p-2 w-[200px] text-white'>ADD TO CART</button>
+            <b className='text-2xl'>320.99</b>
+          </div>
+        </div>
+        <div>
+          <img src="/image 25.png"/>
+        </div>
+      </div>
+
+
+   
+        <div className='collection1 flex gap-[200px] '>
+          <img src="/ringimage.png" className='h-[500px] ml-[100px] '/>
+          <div>
+            <h1 className='text-5xl leading-[60px] mb-[55px] mt-[50px]'>J-Shop's best <br/>Collections</h1>
+            <h2 className='mb-[30px] text-2xl'>Comfort</h2>
+            <p className='w-[400px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
+              Maui delivers Jewelery offers extended sizing which may be subject to an additional cost. Any subsequent resizes after purchase will incur an additional charge.
+              Please note some styles cannot be resized due to their design
+            </p>
+          </div>
+        </div>
+        <div className='collection2 flex gap-[200px]'>
+      
+          <div className='ml-[100px] mt-[200px]'>
+          
+            <h2 className='mb-[30px] text-2xl'>100% Gold</h2>
+            <p className='w-[400px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
+              Maui delivers Jewelery offers extended sizing which may be subject to an additional cost. Any subsequent resizes after purchase will incur an additional charge.
+              Please note some styles cannot be resized due to their design
+            </p>
+        </div>
+        <img src="/image1.png" className='h-[500px] ml-[100px] '/>
+        </div>
+        <div className='collection3 flex'>
+        <img src="/image.png" className='h-[500px] ml-[100px] '/>
+          <div>
+            <h1 className='text-5xl leading-[60px] mb-[55px] mt-[50px]'>J-Shop's best <br/>Collections</h1>
+            <h2 className='mb-[30px] text-2xl'>Comfort</h2>
+            <p className='w-[400px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
+              Maui delivers Jewelery offers extended sizing which may be subject to an additional cost. Any subsequent resizes after purchase will incur an additional charge.
+              Please note some styles cannot be resized due to their design
+            </p>
+          </div>
+        </div>
+
+
+        <div className="compnaies  mt-[100px] flex flex-col items-center justify-center">
+          <h2 className='font-800 text-2xl mb-[30px]'>Trusted by leading companies</h2>
+          <div className="flex justify-around">
+        
+          </div>
+        </div>
+
+        <div className='blogs mt-[50px] flex flex-col items-center justify-center'>
+          <div><h2 className='text-2xl font-bold m-[40px]'>Our Blogs</h2></div>
+          <div className="flex justify-around w-[80%] mx-auto gap-[40px]">
+            <div>
+              <img src="/Rectangle34.png"/>
+              <div>
+                <h3 className="font-bold">For Beauty</h3>
+                <p className='w-[300px]'>Offending Belonging Promotion Provision Consulted OUrselves it</p>
+              </div>
+            </div>
+            <div>
+            <img src="/Rectangle 35.png"/>
+            <div>
+                <h3 className="font-bold">Product Quality</h3>
+                <p  className='w-[300px]'>Offending Belonging Promotion Provision Consulted OUrselves it</p>
+              </div>
+            </div>
+            <div>
+            <img src="/Rectangle36.png"/>
+            <div>
+                <h3 className="font-bold">For Comfort</h3>
+                <p>Offending Belonging Promotion Provision Consulted OUrselves it</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+
 
      
     </>

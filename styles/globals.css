@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,800&family=Permanent+Marker&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #F8F3E9;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
