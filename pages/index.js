@@ -12,23 +12,23 @@ export default function Home() {
       </Head>
 
       <header>
-        <div className='firstHeader flex items-center'>
+        <div className='firstHeader flex items-center flex-col md:flex-row'>
           <div>
-            <img src="/stone.png"/>
+            <Image src="/stone.png" alt="icon" width={650} height={400}/>
           </div>
-          <div className='-mt-[70px]'>
+          <div className='-mt-[70px] px-2'>
             <h2 className='font-bold  justify-center text-3xl mb-[20px]'>Our Story</h2>
-            <p className="w-[400px] text-sm">modern jewelery is made of gold,sliver or platinum often with precious or semiprecious stones,it evolves
+            <p className="md:w-[400px] text-sm">modern jewelery is made of gold,sliver or platinum often with precious or semiprecious stones,it evolves
               from shell,animal teeth and other items used as body decoration in prehistoric times
             </p>
           </div>
         </div>
 
 
-        <div className='secondHeader flex items-center w-[95%] mx-auto md:-mt-[120px] relative flex-col md:flex-row'>
+        <div className='secondHeader px-2 flex items-center md:w-[95%] mx-auto md:-mt-[120px] relative flex-col md:flex-row'>
           <div className='flex flex-col justify-center'>
-            <h2 className=' text-7xl ml-[50px] leading-[80px]'>Jewelery tells <br/>a great story</h2>
-            <div className='flex text-sm mt-[80px] ml-[60px]'>
+            <h2 className=' md:text-7xl text-5xl md:ml-[50px] md:leading-[80px]'>Jewelery tells <br/>a great story</h2>
+            <div className='flex text-sm mt-[80px] md:ml-[60px]'>
               <div>
                 <h3 className='text-2xl'>Gold</h3>
                 <p>Her provision acuteness had two way intention</p>
@@ -39,23 +39,26 @@ export default function Home() {
               </div>
             </div>
           </div>
+          
 
           <div className='relative'>
-          <img src="/Rectangle 4.png"/>
-          <img src="/play.png" className='absolute right-[30px] top-[400px]'/>
+         
+          <Image src="/Rectangle 4.png" alt="icon" width={850} height={700}/>
+         
           </div>
-          <div className='absolute right-0 top-[30px]'><img src="/Social Icons.png"/></div>
+          <div className='absolute right-0 top-[30px]'><Image src="/Social Icons.png" alt="icon" width={20} height={80}/></div>
+          <div className='absolute right-0 top-[250px]'><Image src="/pageination.png" alt="icon" width={20} height={150}/></div>
         </div>
       </header>
 
 
-      <div className='band flex gap-[40px] justify-around mt-[40px]'>
+      <div className='band flex gap-[40px] justify-around mt-[40px] flex-col-reverse md:flex-row px-2'>
         <div>
-          <img src="/image 24.png"/>
+          <Image src="/image 24.png" alt="icon" width={520} height={350}/>
         </div>
         <div>
           <h2 className='text-4xl mb-[20px]'>Gold Woven Chain <br/>Bracelet in Black</h2>
-          <p className='w-[400px] text-sm'>This bracelet features a 5MM Stainless Steel chain with Nylon cord braiding. Each bracelet includes a polishing pad and absolute
+          <p className='md:w-[400px] text-sm'>This bracelet features a 5MM Stainless Steel chain with Nylon cord braiding. Each bracelet includes a polishing pad and absolute
             and a cotton jewelery pouch. Produly made by hand in Atlanta
           </p>
           <div className='mt-[40px]'>
@@ -63,7 +66,7 @@ export default function Home() {
             <p>S &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; M &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;L</p>
           </div>
           <div className='mt-[40px]  flex items-center gap-[30px]'>
-            <button className='bg-[#3D3D3F] p-2 w-[200px] text-white'>ADD TO CART</button>
+            <button className='bg-[#3D3D3F] p-2 w-[150px] text-white shadow'>ADD TO CART</button>
             <b className='text-2xl'>549.29</b>
           </div>
         </div>
@@ -71,11 +74,11 @@ export default function Home() {
 
      
            
-      <div className='band flex gap-[40px] justify-around mt-[100px]'>
+      <div className='band flex gap-[40px] justify-around mt-[100px] flex-col md:flex-row px-2'>
        
         <div className='mt-[60px]'>
           <h2 className='text-4xl mb-[20px]'>Gold Black Coral <br/>Ring</h2>
-          <p className='w-[400px] text-sm'>This bracelet features a 5MM Stainless Steel chain with Nylon cord braiding. Each bracelet includes a polishing pad and absolute
+          <p className='md:w-[400px] text-sm'>This bracelet features a 5MM Stainless Steel chain with Nylon cord braiding. Each bracelet includes a polishing pad and absolute
             and a cotton jewelery pouch. Produly made by hand in Atlanta
           </p>
           <div className='mt-[40px]'>
@@ -83,82 +86,136 @@ export default function Home() {
             <p>S &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; M &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;L</p>
           </div>
           <div className='mt-[40px]  flex items-center gap-[30px]'>
-            <button className='bg-[#3D3D3F] p-2 w-[200px] text-white'>ADD TO CART</button>
+            <button className='bg-[#3D3D3F] p-2 w-[150px] text-white'>ADD TO CART</button>
             <b className='text-2xl'>320.99</b>
           </div>
         </div>
         <div>
-          <img src="/image 25.png"/>
+          <Image src="/image 25.png" alt="icon" width={550} height={550}/>
         </div>
       </div>
 
 
    
-        <div className='collection1 flex gap-[200px] '>
-          <img src="/ringimage.png" className='h-[500px] ml-[100px] '/>
+        <div className='collection1 flex gap-[200px] flex-col-reverse md:flex-row px-2 items-center justify-center' >
+          <Image src="/ringimage.png" className='h-[500px] md:ml-[200px] ' alt="icon" width={450} height={550}/>
           <div>
-            <h1 className='text-5xl leading-[60px] mb-[55px] mt-[50px]'>J-Shop's best <br/>Collections</h1>
+            <h1 className='text-5xl leading-[60px] md:mb-[55px] mt-[50px] mb-[30px]'>J-Shop best <br/>Collections</h1>
             <h2 className='mb-[30px] text-2xl'>Comfort</h2>
-            <p className='w-[400px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
+            <p className='md:w-[400px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
               Maui delivers Jewelery offers extended sizing which may be subject to an additional cost. Any subsequent resizes after purchase will incur an additional charge.
               Please note some styles cannot be resized due to their design
             </p>
           </div>
         </div>
-        <div className='collection2 flex gap-[200px]'>
+        <div className='collection2 flex gap-[200px] flex-col md:flex-row px-2 items-center justify-center'>
       
-          <div className='ml-[100px] mt-[200px]'>
+          <div className='md:ml-[100px] mt-[200px] px-3'>
           
             <h2 className='mb-[30px] text-2xl'>100% Gold</h2>
-            <p className='w-[400px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
+            <p className='md:w-[400px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
               Maui delivers Jewelery offers extended sizing which may be subject to an additional cost. Any subsequent resizes after purchase will incur an additional charge.
               Please note some styles cannot be resized due to their design
             </p>
         </div>
-        <img src="/image1.png" className='h-[500px] ml-[100px] '/>
+        <Image src="/image1.png" className='h-[500px] md:ml-[100px] ' alt="icon" width={450} height={550}/>
         </div>
-        <div className='collection3 flex'>
-        <img src="/image.png" className='h-[500px] ml-[100px] '/>
-          <div>
-            <h1 className='text-5xl leading-[60px] mb-[55px] mt-[50px]'>J-Shop's best <br/>Collections</h1>
-            <h2 className='mb-[30px] text-2xl'>Comfort</h2>
-            <p className='w-[400px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
+        <div className='collection3 flex flex-col-reverse md:flex-row px-2 items-center justify-center'>
+        <Image src="/image.png" className='h-[500px] md:ml-[100px] ' alt="icon" width={450} height={550}/>
+          <div className='md:ml-[100px] mt-[150px]'>
+         
+            <h2 className='mb-[30px] text-2xl'>Trendy</h2>
+            <p className='md:w-[400px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
               Maui delivers Jewelery offers extended sizing which may be subject to an additional cost. Any subsequent resizes after purchase will incur an additional charge.
               Please note some styles cannot be resized due to their design
             </p>
+            <div className='mt-[30px]'><button className='bg-[#3D3D3F] p-2 w-[150px] text-white mb-[30px]'>GO TO SHOP</button></div>
           </div>
         </div>
 
 
-        <div className="compnaies  mt-[100px] flex flex-col items-center justify-center">
-          <h2 className='font-800 text-2xl mb-[30px]'>Trusted by leading companies</h2>
-          <div className="flex justify-around">
+        <div className="compnaies  mt-[150px] flex flex-col items-center justify-center">
+          <h2 className='font-800 text-3xl mb-[50px] text-center'>Trusted by leading companies</h2>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-[30px] items-center">
+        <div>
+          <Image src="/logo.png" className='w-[150px]' alt="icon" width={150} height={30}/>
+        </div>
+        <div>
+          <Image src="/logo1.png" className='w-[150px]' alt="icon" width={150} height={30}/>
+        </div>
+        <div>
+          <Image src="/logo2.png" className='w-[150px]' alt="icon" width={150} height={30}/>
+        </div>
+        <div>
+          <Image src="/logo3.png" className='w-[150px]' alt="icon" width={150} height={30}/>
+        </div>
+        <div>
+          <Image src="/logo4.png" className='w-[150px]' alt="icon" width={150} height={30}/>
+        </div>
+          </div>
+        </div>
+
+        <div className='testimonials flex items-center mt-[200px] justify-center flex-col md:flex-row'>
+          <div className="z-1 relative hidden md:block">
+           
+            <Image src="/bg3.png"  alt="icon" width={450} height={500} className="z-1"/>
+            <div className="flex ml-[130px] absolute -bottom-[20px] right-0 z-5">
+            <Image src="/bg2.png"  alt="icon" width={100} height={100}/>
+            <Image src="/bg4.png" alt="icon" width={100} height={100}/>
+            <Image src="/bg1.png" alt="icon" width={100} height={100}/>
+            </div>
+          </div>
+          <div className='mt-[50px] relative z-10'>
+            <h2 className="font-bold text-3xl mb-[10px] ml-[30px]">Testimonials</h2>
+            <div className='bg-[#F8F3E9] md:h-[220px] md:w-[700px] p-[40px]  z-10 md:-ml-[60px] mt-[60px]' style={{borderLeft:'5px solid black'}}>
+              <h2 className='font-bold'>Mario Saporanvo</h2>
+              <span className='text-sm '>Senior Manager</span>
+              <p className='text-sm mt-[20px]'>We will reach out to you for the current cost of permit. Please contact us for more information.
+              Maui delivers Jewelery offers extended sizing which may be subject to an additional cost. Any subsequent resizes after purchase will incur an additional charge.
+              Please note some styles cannot be resized due to their design</p>
+            </div>
+            <div className='right-0 -bottom-[40px] absolute z-1 '>
+             
+            </div>
+          </div>
+        </div>
+
+
+
+      <div className="subscribe mt-[100px] flex items-center justify-center">
+        <div className='container flex flex-col items-center justify-center'>
+        <div><h2 className='text-3xl mb-[50px]'>Join J-Shop Family</h2></div>
+        <div className='flex flex-col md:flex-row gap-[20px] px-2'>
+          <input type="email" className='bg-[#F8F3E9] p-2 w-[400px] focus:outline-[#F8F3E9] py-4' placeholder='Enter email'/>    <button className='bg-[#3D3D3F] p-2 w-[400px] md:w-[150px] text-white'>JOIN FAMILY</button>
+        </div>
+        </div>
         
-          </div>
-        </div>
+      </div>
+
+
 
         <div className='blogs mt-[50px] flex flex-col items-center justify-center'>
-          <div><h2 className='text-2xl font-bold m-[40px]'>Our Blogs</h2></div>
-          <div className="flex justify-around w-[80%] mx-auto gap-[40px]">
+          <div><h2 className='text-3xl font-bold m-[40px]'>Our Blogs</h2></div>
+          <div className="flex justify-around md:w-[80%] mx-auto gap-[40px] flex-col md:flex-row">
             <div>
-              <img src="/Rectangle34.png"/>
+              <Image src="/Rectangle34.png" alt="icon" width={330} height={280}/>
               <div>
-                <h3 className="font-bold">For Beauty</h3>
+                <h3 className="font-bold mb-[20px] mt-[20px] text-2xl">For Beauty</h3>
                 <p className='w-[300px]'>Offending Belonging Promotion Provision Consulted OUrselves it</p>
               </div>
             </div>
             <div>
-            <img src="/Rectangle 35.png"/>
+            <Image src="/Rectangle 35.png"  alt="icon" width={330} height={280}/>
             <div>
-                <h3 className="font-bold">Product Quality</h3>
+                <h3 className="font-bold mb-[20px] mt-[20px] text-2xl">Product Quality</h3>
                 <p  className='w-[300px]'>Offending Belonging Promotion Provision Consulted OUrselves it</p>
               </div>
             </div>
             <div>
-            <img src="/Rectangle36.png"/>
+            <Image src="/Rectangle36.png"  alt="icon" width={330} height={280}/>
             <div>
-                <h3 className="font-bold">For Comfort</h3>
-                <p>Offending Belonging Promotion Provision Consulted OUrselves it</p>
+                <h3 className="font-bold mb-[20px] mt-[20px] text-2xl">For Comfort</h3>
+                <p className='w-[300px]'>Offending Belonging Promotion Provision Consulted OUrselves it</p>
               </div>
             </div>
           </div>
